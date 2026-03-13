@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointments | Sankhara Astrology</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">Sankhara<span style="color:var(--text-main);font-size:1rem;"> Astrology</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="appointments.html" class="active">Appointments</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="container">
+            <h1>Book a Consultation</h1>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / <span>Appointments</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Appointment Section -->
+    <section class="appointment-section">
+        <div class="container appointment-container">
+            
+            <div class="appointment-info">
+                <h2>Secure Your Destiny Reading</h2>
+                <p>Reserve an exclusive online or physical consultation with our master astrologer. Experience guidance that transforms your perspective and path.</p>
+                
+                <ul class="appointment-features">
+                    <li><i class="fas fa-check-circle"></i> Complete confidentiality guaranteed</li>
+                    <li><i class="fas fa-check-circle"></i> Detailed PDF report generation</li>
+                    <li><i class="fas fa-check-circle"></i> 1 Hour dedicated personalized session</li>
+                    <li><i class="fas fa-check-circle"></i> Free one-time follow-up within a month</li>
+                </ul>
+
+                <div style="background: rgba(212, 175, 55, 0.1); border-left: 4px solid var(--primary-gold); padding: 1.5rem; border-radius: 4px; margin-top: 2rem;">
+                    <h4 style="color: var(--primary-gold); font-family: 'Cinzel', serif; margin-bottom: 0.5rem;">Important Notice</h4>
+                    <p style="font-size: 0.95rem; margin-bottom: 0;">Due to high demand, new appointments may be scheduled up to 2 weeks in advance. For urgent Vasthu or auspicious time (Nekath) requirements, please contact us directly via WhatsApp.</p>
+                </div>
+            </div>
+
+            <div class="appointment-form-wrapper">
+                <form class="appointment-form" id="appointmentForm">
+                    <h3 style="color:var(--primary-gold); font-family:'Cinzel', serif; font-size:1.8rem; margin-bottom:2rem; text-align:center;">Appointment Request</h3>
+                    
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" class="form-control" required placeholder="Mr. / Ms. Name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone/WhatsApp Number</label>
+                        <input type="tel" id="phone" class="form-control" required placeholder="+94 7X XXX XXXX">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Select Service</label>
+                        <select id="service" class="form-control" required>
+                            <option value="">-- Choose a Service --</option>
+                            <option value="horoscope">Comprehensive Horoscope Reading</option>
+                            <option value="matchmaking">Marriage Matchmaking (Porondam)</option>
+                            <option value="vasthu">Vasthu Shastra Consultation</option>
+                            <option value="naming">Baby Naming & First Letters</option>
+                            <option value="auspicious">Auspicious Times (Nekath)</option>
+                        </select>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;">
+                        <div class="form-group" style="margin-bottom: 0;">
+                            <label for="date">Preferred Date</label>
+                            <input type="date" id="date" class="form-control" required>
+                        </div>
+                        <div class="form-group" style="margin-bottom: 0;">
+                            <label for="type">Session Type</label>
+                            <select id="type" class="form-control" required>
+                                <option value="online">Online (Zoom/WhatsApp)</option>
+                                <option value="physical">In-Person Visit</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Additional Notes / Birth Details (Optional)</label>
+                        <textarea id="message" class="form-control" placeholder="E.g., Date of Birth, Time, Place of Birth..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-gold-solid" style="width: 100%; border:none; margin-top:1rem;"><i class="fas fa-calendar-check" style="margin-right:8px;"></i> Request Appointment</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <div class="logo" style="margin-bottom: 1rem;">Sankhara<span style="color:var(--text-main);font-size:1rem;"> Astrology</span></div>
+                <p>The most premium and mystical astrological experience in Sri Lanka. Unlocking destinies and guiding souls toward spiritual and material prosperity.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="appointments.html">Appointments</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> <span>123 Sacred Lane, Colombo 07, Sri Lanka</span></li>
+                    <li><i class="fas fa-phone-alt"></i> <span>+94 77 123 4567</span></li>
+                    <li><i class="fas fa-envelope"></i> <span>consult@sankhara.lk</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Sankhara Astrology. Designed Exclusively for Premium Clients.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>

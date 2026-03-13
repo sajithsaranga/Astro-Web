@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Sankhara Astrology</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">Sankhara<span style="color:var(--text-main);font-size:1rem;"> Astrology</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="appointments.html">Appointments</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <div class="page-header" style="background-image: url('assets/images/astro_hero_bg.png');">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / <span>Contact</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="section-padding">
+        <div class="container contact-grid">
+            
+            <div class="contact-info-boxes">
+                <h2 style="font-family: 'Cinzel', serif; color: var(--primary-gold); font-size: 2.5rem; margin-bottom: 1rem;">Reach The Master</h2>
+                <p style="color: var(--text-muted); margin-bottom: 2rem;">Whether you are seeking guidance, have a quick inquiry, or need to locate our temple, we are here for you.</p>
+
+                <div class="info-box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>The Sanctuary Location</h4>
+                        <p>123 Sacred Lane, Horton Place,<br>Colombo 07, Sri Lanka.</p>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <div>
+                        <h4>Email Us Formally</h4>
+                        <p>General: info@sankhara.lk<br>Appointments: consult@sankhara.lk</p>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <i class="fas fa-phone-volume"></i>
+                    <div>
+                        <h4>Direct Line & WhatsApp</h4>
+                        <p>+94 77 123 4567<br>+94 11 234 5678</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background: var(--bg-card); padding: 3rem; border-radius: 8px; border: 1px solid rgba(212, 175, 55, 0.2); box-shadow: 0 0 30px rgba(0,0,0,0.4);">
+                <form id="contactForm">
+                    <h3 style="color:var(--light-gold); font-family:'Cinzel', serif; font-size:1.8rem; margin-bottom:2rem;">Send a Message</h3>
+                    
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                        <input type="email" class="form-control" placeholder="Email Address" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Enter your inquiry here..." style="min-height: 150px;" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-gold" style="width: 100%; border-radius: 4px;">Submit Inquiry</button>
+                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 1rem; text-align: center;">We reply within 24 hours.</p>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Google Maps iframe placeholder (Dark Mode Map filter applied via CSS ideally, but here using opacity/filter on frame for design integration) -->
+    <section>
+        <div style="width: 100%; height: 400px; filter: invert(90%) hue-rotate(180deg) contrast(1.1);">
+            <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Colombo%2007+(Sankhara%20Astrology)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <div class="logo" style="margin-bottom: 1rem;">Sankhara<span style="color:var(--text-main);font-size:1rem;"> Astrology</span></div>
+                <p>The most premium and mystical astrological experience in Sri Lanka. Unlocking destinies and guiding souls toward spiritual and material prosperity.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="appointments.html">Appointments</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> <span>123 Sacred Lane, Colombo 07, Sri Lanka</span></li>
+                    <li><i class="fas fa-phone-alt"></i> <span>+94 77 123 4567</span></li>
+                    <li><i class="fas fa-envelope"></i> <span>consult@sankhara.lk</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Sankhara Astrology. Designed Exclusively for Premium Clients.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
